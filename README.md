@@ -1,8 +1,8 @@
-# sp-px-third-party-a-pi
+# Call a Third Party API in SPFx (SharePoint Development Framework)
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Demonstrates how to call anonymous Third Party API from SPFx App. In this example it displays joke which is fected from a Third Party API.
 
 [picture of the solution in action, if possible]
 
@@ -19,20 +19,23 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+- Microsoft 365 Developer account
+- Visual Studio code or any other IDE
+- Node.js installed
+- Git installation
+- SPFx Development Set up https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment
 
 ## Solution
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+src | Author details (Kislay Sinha, CGI, https://twitter.com/SinhaKislay)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.0|January 05, 2021|Initial release
 
 ## Disclaimer
 
@@ -47,20 +50,18 @@ Version|Date|Comments
 - in the command-line run:
   - **npm install**
   - **gulp serve**
+  - Add the web part to workbench
 
 > Include any additional steps as needed.
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+Describes how to call a Third Party API using / consume REST APIs in SharePoint development framework
+Describes how to call anonymous API and display information in SharePoint SPFx web part
+The HttpClient API is used for making HTTP requests in SharePoint Framework . I have used HttpClient API to primarily submit anonymous requests to third-party APIs.
+React Framework is used for component to display the information
 
-This extension illustrates the following concepts:
 
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
 > Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
