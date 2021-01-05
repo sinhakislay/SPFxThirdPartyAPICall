@@ -2,7 +2,7 @@
 
 ## Summary
 
-- Demonstrates how to call anonymous Third Party API from SPFx App. In this example it displays joke which is fected from a Third Party API.
+- Demonstrates how to call anonymous Third Party API from SPFx App. In this example it displays joke which is fetched from a Third Party API.
 - More information here: https://youtu.be/E0IxARcTpcw
 
 ![](spfxthirdparyapi.PNG)
