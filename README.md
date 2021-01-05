@@ -2,9 +2,10 @@
 
 ## Summary
 
-Demonstrates how to call anonymous Third Party API from SPFx App. In this example it displays joke which is fected from a Third Party API.
+- Demonstrates how to call anonymous Third Party API from SPFx App. In this example it displays joke which is fected from a Third Party API.
+- More information here: https://youtu.be/E0IxARcTpcw
 
-[picture of the solution in action, if possible]
+![](spfxthirdparyapi.PNG)
 
 ## Used SharePoint Framework Version
 
@@ -52,14 +53,14 @@ Version|Date|Comments
   - **gulp serve**
   - Add the web part to workbench
 
-> Include any additional steps as needed.
+> More information here https://youtu.be/E0IxARcTpcw
 
 ## Features
 
-Describes how to call a Third Party API using / consume REST APIs in SharePoint development framework
-Describes how to call anonymous API and display information in SharePoint SPFx web part
-The HttpClient API is used for making HTTP requests in SharePoint Framework . I have used HttpClient API to primarily submit anonymous requests to third-party APIs.
-React Framework is used for component to display the information
+- Describes how to call a Third Party API using / consume REST APIs in SharePoint development framework
+- Describes how to call anonymous API and display information in SharePoint SPFx web part
+- The HttpClient API is used for making HTTP requests in SharePoint Framework . I have used HttpClient API to primarily submit anonymous requests to third-party APIs.
+- React Framework is used for component to display the information
 
 
 
@@ -72,3 +73,5 @@ React Framework is used for component to display the information
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 - [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+- https://youtu.be/E0IxARcTpcw
+- https://github.com/sameerkumar18/geek-joke-api
